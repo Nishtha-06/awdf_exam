@@ -1,0 +1,20 @@
+.appointment-card {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+/* Different style for each appointment status */
+
+.status.confirmed {
+  color: green;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.status.cancelled {
+  color: red;
+}
